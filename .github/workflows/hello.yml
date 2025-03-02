@@ -1,0 +1,9 @@
+#9784297141738
+name: Hello
+on: push
+jobs:
+  hello-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world!"
+      - uses: actions/checkout@v4
