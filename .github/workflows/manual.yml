@@ -7,6 +7,11 @@ on:
         default: Hello
         required: true
         description: A cheerful word
+      target:
+        type: choice
+        options:
+          - world
+          - galaxy
 jobs:
   run:
     runs-on: ubuntu-latest
